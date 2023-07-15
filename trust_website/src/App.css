@@ -1,6 +1,55 @@
-.App {
-  text-align: center;
+.header {
+  background-color: #00567a;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  /* height: 20rem; */
 }
+
+.title {
+  margin: 2rem;
+  font-size: 4rem;
+  color: white;
+}
+
+.scrolldown {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50rem;
+  margin: 2rem;
+  /* background-color: beige; */
+  align-items: center;
+}
+
+.activites_page {
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.founders_page {
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.organizations_page {
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.homepage {
+  background-color: #ea8605;
+  height: 50rem;
+}
+
+
+
+
 
 .App-logo {
   height: 40vmin;
