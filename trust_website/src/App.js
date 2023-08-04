@@ -1,18 +1,23 @@
-import logo from "./logo.svg";
-import "./App.css";
+/* eslint-disable default-case */
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import NavBar from "./components/NavBar";
+import OrganizationsPage from "./components/OrganizationsPage";
+import FoundersPage from "./components/FoundersPage";
 
 function App() {
   return (
-    <div className="homepage">
-      <div className="header">
-        <div className="title">6541 Trust</div>
-        <div className="scrolldown">
-          <div className="activites_page">Activities</div>
-          <div className="founders_page">Founders</div>
-          <div className="organizations_page">Participating Organizations</div>
-        </div>
-      </div>
-    </div>
+    <Router>
+      <NavBar />
+      <HomePage />
+      {/* <Routes>
+        <Route path="/" exact component={<HomePage />} />
+        <Route path="/activities" component={Activities} />
+        <Route path="/founder" component={<FoundersPage />} />
+        <Route path="/organizations" component={<OrganizationsPage />} />
+      </Routes> */}
+    </Router>
   );
 }
 

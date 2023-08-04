@@ -1,0 +1,18 @@
+.body {
+    background-color: antiquewhite;
+    padding: 2rem;
+  }
+  
+  .section_1 {
+    background-color: white;
+    padding: 2rem;
+  }
+  
+  .message {
+    /* text-align:center; */
+    font-size: 3rem;
+    width: 50%;
+    /* width: 20rem; */
+    /* background-color: aqua; */
+    padding-left: 2rem;
+  }

@@ -10,7 +10,7 @@
 
 .title {
   margin: 2rem;
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
 }
 
@@ -25,63 +25,48 @@
 }
 
 .activites_page {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 2rem;
   color: white;
 }
 
 .founders_page {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 2rem;
   color: white;
+  border-color: black;
 }
 
 .organizations_page {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 2rem;
   color: white;
 }
 
 .homepage {
-  background-color: #ea8605;
+  /* background-color: #ea8605; */
   height: 50rem;
 }
 
-
-
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body {
+  background-color: antiquewhite;
+  padding: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section_1 {
+  background-color: white;
+  padding: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.message {
+  /* text-align:center; */
+  font-size: 3rem;
+  width: 50%;
+  /* width: 20rem; */
+  /* background-color: aqua; */
+  padding-left: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
