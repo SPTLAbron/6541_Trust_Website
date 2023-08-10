@@ -1,18 +1,85 @@
-.body {
-    background-color: antiquewhite;
-    padding: 2rem;
-  }
-  
-  .section_1 {
-    background-color: white;
-    padding: 2rem;
-  }
-  
-  .message {
-    /* text-align:center; */
-    font-size: 3rem;
-    width: 50%;
-    /* width: 20rem; */
-    /* background-color: aqua; */
-    padding-left: 2rem;
-  }
+.founders_body {
+  /* background-color: antiquewhite; */
+  padding-top: 2rem;
+}
+
+.founders_title {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Noto Serif';
+  /* font-weight: bold; */
+  margin: 1rem;
+  margin-bottom: 3rem;
+  /* border-bottom-width: 0.11rem;
+  border-bottom-color: black;
+  border-bottom-style: solid; */
+}
+
+.founders_section_1 {
+  background-color: #00567a;
+  padding: 1rem;
+  /* border-radius: 3rem; */
+}
+
+.founder_component {
+  /* background-color: aliceblue; */
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-image: linear-gradient(to ); */
+}
+
+.founder_component_content {
+  width: 70%;
+  background-color: #ff8c19;
+  padding: 1rem;
+  /* display: inline-block;
+  position: relative; */
+  color: white;
+}
+
+/* .founder_component_content::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 0px;
+  right: -4px;
+  bottom: -4px;
+  background-color: blue;
+  z-index: -1;
+  transform: ;
+} */
+
+.founder_name {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Noto Serif';
+  padding-bottom: 1rem;
+}
+
+.founder_description {
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  font-family: 'Noto Serif';
+  /* clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); */
+  /* rotate: 90deg; */
+}
+
+.founder_image {
+  /* padding: 2rem; */
+  width: 50%;
+  /* height: 35rem;
+  width: 35rem; */
+  background-color: aqua;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  /* clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%); */
+}

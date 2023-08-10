@@ -5,12 +5,15 @@ import HomePage from "./components/HomePage";
 import NavBar from "./components/NavBar";
 import OrganizationsPage from "./components/OrganizationsPage";
 import FoundersPage from "./components/FoundersPage";
+import BottomPart from "./components/BottomPart";
 
 function App() {
   return (
     <Router>
       <NavBar />
-      <HomePage />
+      {/* <HomePage /> */}
+      <FoundersPage />
+      <BottomPart />
       {/* <Routes>
         <Route path="/" exact component={<HomePage />} />
         <Route path="/activities" component={Activities} />
