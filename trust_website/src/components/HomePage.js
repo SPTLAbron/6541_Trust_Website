@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HomePage.css";
 // import image from "./download.jpeg";
 
@@ -23,9 +24,9 @@ export default function HomePage() {
           </div>
         </div>
         {/* <div className="section_3">
-      <div className="contact_us_header">Contact Us</div>
-    </div>
-    <input type="text" onChange={onChange} /> */}
+          <div className="contact_us_header">Contact Us</div>
+        </div>
+        <input type="text" onChange={onChange} /> */}
       </div>
       
     </>
