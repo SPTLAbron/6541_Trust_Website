@@ -28,7 +28,25 @@ export default function HomePage() {
         </div>
         <input type="text" onChange={onChange} /> */}
       </div>
-      
+      {/* About Us Box */}
+      {/* <div
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          right: "20px",
+          backgroundColor: "#f0f0f0",
+          padding: "10px",
+          borderRadius: "8px",
+          boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)",
+          zIndex: 10,
+        }}
+      >
+        <p style={{ marginBottom: "5px" }}>
+          <strong>Contact Us</strong>
+        </p>
+        <p>WhatsApp: +123456789</p>
+        <p>Email: example@example.com</p>
+      </div> */}
     </>
   );
 }
