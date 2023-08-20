@@ -15,14 +15,56 @@ export default function HomePage() {
         </div>
         <div className="home_section_2">
           <div className="mission_title">Our Mission</div>
-          <div className="missoin_content_container">
+          <div className="mission_content_container">
             <div className="mission_content">
-              To provide financial support for individuals, families or
-              organizations who are facing challenges related to poverty.
+              To help the underprivileged and less-fortunate members of our
+              Indian society through financial resources, counseling and
+              guidance just as we were helped several years back. This is our
+              small token of appreciation for those who supported us and to the
+              society that got us here. We strongly believe that there are
+              children in our society who could grow up to become leaders of
+              tomorrow with a little help and a gentle nudge. The only thing
+              that we seek in return is to see underprivileged people succeed
+              and thrive. We get our guidance our scriptures, which says:
+              <br />
+              <br />
+              BHAGAVAD GITA 17.20: <br />
+              datavyam iti yad danam diyate nupakarine deśhe kāle chapātre
+              chataddānaṁ sāttvikaṁ smṛitam <br />
+              Charity given out of duty, without expectation of return, at the
+              proper time and place, and to a worthy person is considered to be
+              in the mode of goodness.
             </div>
             <div className="medicines_image">IMAGE</div>
           </div>
         </div>
+
+        <div className="home_section_3">
+          <div className="work_title">Our Mission</div>
+          <div className="mission_content_container">
+            <div className="mission_content">
+              To help the underprivileged and less-fortunate members of our
+              Indian society through financial resources, counseling and
+              guidance just as we were helped several years back. This is our
+              small token of appreciation for those who supported us and to the
+              society that got us here. We strongly believe that there are
+              children in our society who could grow up to become leaders of
+              tomorrow with a little help and a gentle nudge. The only thing
+              that we seek in return is to see underprivileged people succeed
+              and thrive. We get our guidance our scriptures, which says:
+              <br />
+              <br />
+              BHAGAVAD GITA 17.20: <br />
+              datavyam iti yad danam diyate nupakarine deśhe kāle chapātre
+              chataddānaṁ sāttvikaṁ smṛitam <br />
+              Charity given out of duty, without expectation of return, at the
+              proper time and place, and to a worthy person is considered to be
+              in the mode of goodness.
+            </div>
+            <div className="medicines_image">IMAGE</div>
+          </div>
+        </div>
+
         {/* <div className="section_3">
           <div className="contact_us_header">Contact Us</div>
         </div>

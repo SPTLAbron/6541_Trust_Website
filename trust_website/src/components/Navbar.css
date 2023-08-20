@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding-right: 2rem;
   padding-left: 2rem;
-  /* height: 20rem; */
+  /* height: 8rem; */
 }
 
 .navbar_title {
@@ -18,21 +18,97 @@
 .navbar_scrolldown {
   flex-direction: row;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   width: 50rem;
   margin: 2rem;
   /* background-color: beige; */
   align-items: center;
+  padding-right: 10rem;
+}
+
+.activities_container {
+  /* display: flex; */
+  flex-direction: column;
+  /* background-color: red; */
+  position: relative;
+  /* display: inline-block; */
+}
+
+button, .activities_page {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 .activites_page {
   padding: 0.5rem;
   font-size: 2rem;
-  border-width: 0.2rem;
+  width: 9.11rem;
+  border-bottom-width: 0.2rem;
   border-bottom-style: solid;
   border-color: white;
   color: white;
   font-family: 'Noto Serif';
+  margin-inline: 5rem;
+  background-color: transparent;
+  /* border: none; */
+  /* color: white; */
+  cursor: pointer;
+}
+
+.dropdown_container {
+  /* display: none; */
+  z-index: 1;
+  /* position: absolute; */
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  /* background-color: #444; */
+  border: 1px solid;
+  margin-left: 5rem;
+  /* width: 50rem; */
+
+  border-color: white;
+}
+
+.activities_container:hover .dropdown_container {
+  display: block;
+}
+
+.dropdown_container div {
+  /* padding: 0.5rem; */
+}
+
+.founders_page,
+.medical_page,
+.educational_page {
+  cursor: pointer;
+}
+
+.medical_page {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  width: 8rem;
+  color: white;
+  border-bottom-width: 0.05rem;
+  border-bottom-style: solid;
+  border-color: white;
+  background-color: #00567a;
+}
+
+.educational_page {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  width: 8rem;
+  color: white;
+  background-color: #00567a;
 }
 
 .founders_page {

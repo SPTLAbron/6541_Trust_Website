@@ -21,8 +21,9 @@ function App() {
       <Link to="/" style={{ textDecoration: "none", color: "black", position: "absolute", top: "20px", left: "60px" }}>
         <h1 style={{ cursor: "pointer" }}>6541 Trust</h1>
       </Link> */}
-      <HomePage />
+      {/* <HomePage /> */}
       <FoundersPage />
+      <HomePage />
       <BottomPart />
     </Router>
   );

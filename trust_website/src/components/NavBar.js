@@ -18,7 +18,13 @@ const Navbar = () => {
         <h1 style={{ cursor: "pointer" }}>6541 Trust</h1>
       </Link>
       <div className="navbar_scrolldown">
-        <div className="activites_page">Activities</div>
+        <div className="activities_container">
+          <button className="activites_page">Activities</button>
+          <div className="dropdown_container">
+            <div className="medical_page">Medical</div>
+            <div className="educational_page">Education</div>
+          </div>
+        </div>
         <div className="founders_page">Founder</div>
       </div>
     </nav>
