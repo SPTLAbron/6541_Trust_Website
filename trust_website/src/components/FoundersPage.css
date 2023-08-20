@@ -15,6 +15,45 @@
   border-bottom-style: solid; */
 }
 
+.founders_message_container {
+  background-color: #00567a;
+  padding: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.founders_message_title {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Noto Serif';
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  color: white;
+  /* background-color:blue; */
+}
+
+.founders_message {
+  display: flex;
+  justify-self: center;
+  /* text-align:center; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  color: white;
+  width: 80%;
+  padding: 1.5rem;
+  background-color: #ff8c19;
+  /*include later */
+  justify-content: center;
+  align-content: center;
+  font-family: 'Noto Serif';
+  margin-left: 6rem;
+  /* width: 20rem; */
+  /* background-color: aqua; */
+  /* padding-left: 2rem; */
+}
+
 .founders_section_1 {
   background-color: #00567a;
   padding: 1rem;
@@ -27,7 +66,8 @@
   margin: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   /* background-image: linear-gradient(to ); */
 }
 

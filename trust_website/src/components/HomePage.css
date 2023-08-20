@@ -43,7 +43,7 @@
     color: white;
     width: 55%;
     padding: 1.5rem;
-    background-color: #de852f;
+    background-color: #ff8c19;
     /*include later */
     justify-content: center;
     align-content: center;
@@ -53,14 +53,14 @@
     /* padding-left: 2rem; */
   }
 
-  .missoin_content_container {
+  .mission_content_container {
     display: flex;
     flex-direction: row;
     padding: 2rem;
   }
 
   .medicines_image {
-    height: 300px;
+    height: 450px;
     width: 45%;
     padding: 2rem;
     background-color: aqua;
@@ -72,13 +72,13 @@
     font-size: 3rem;
   }
 
-  .section_3 {
+  .home_section_3 {
     background-color: white;
     padding: 2rem;
     margin-top: 2rem;
   }
 
-  .contact_us_header {
+  .work_title {
     padding: 1rem;
     text-align: center;
     font-family: 'Noto Serif';
@@ -88,41 +88,26 @@
     /* background-color:blue; */
   }
 
-  .bottom_section {
-    position: absolute;
-    width: 93%;
-    padding: 3rem;
-    background-color: #00567a;
-    margin-top: 7rem;
+  .work_content {
+    /* text-align:center; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    color: white;
+    width: 55%;
+    padding: 1.5rem;
+    background-color: #ff8c19;
+    /*include later */
+    justify-content: center;
+    align-content: center;
+    font-family: 'Noto Serif';
+    /* width: 20rem; */
+    /* background-color: aqua; */
+    /* padding-left: 2rem; */
+  }
+
+  .work_content_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
-  }
-
-  .bottom_title {
-    /* margin: 2rem; */
-    margin-right: 30rem;
-    margin-left: -1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    font-family: 'Noto Serif';
-    color: white;
-  }
-
-  .bottom_content {
-    margin: 2rem;
-    margin-left: 0rem;
-    display: flex;
-    flex-direction: row;
-    /* font-family: 'Noto Serif'; */
-    /* background-color: red; */
-  }
-
-  .bottom_statement {
-    width: 60%;
-    font-size: 1rem;
-    color: white;
-    font-family: 'Noto Serif';
+    padding: 2rem;
   }
