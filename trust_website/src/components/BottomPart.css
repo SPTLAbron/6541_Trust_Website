@@ -6,12 +6,11 @@
     margin-top: 4rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    align-items: center; /* Vertically align content */
 }
 
 .bottom_title {
-    /* margin: 2rem; */
     margin-right: 30rem;
     margin-left: -1rem;
     margin-top: 2rem;
@@ -26,8 +25,7 @@
     margin-left: 0rem;
     display: flex;
     flex-direction: row;
-    /* font-family: 'Noto Serif'; */
-    /* background-color: red; */
+    align-items: center; /* Vertically align content */
 }
 
 .bottom_statement {
@@ -35,4 +33,13 @@
     font-size: 1rem;
     color: white;
     font-family: 'Noto Serif';
+}
+
+.contact_info {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Noto Serif';
+    display: flex;
+    align-items: center; /* Vertically align content */
+    margin-left: 20px; /* Add some left margin for spacing */
 }
