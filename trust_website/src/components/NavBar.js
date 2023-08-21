@@ -6,17 +6,24 @@ const Navbar = () => {
   return (
     <nav className="navbar_header">
       {/* Logo */}
-      <Link to="/">
+      {/* <Link to="/">
         <img
           src="/path/to/your/logo.png"
           alt="Company Logo"
           style={{ cursor: "pointer", position: "absolute", top: "10px", left: "10px" }}
         />
-      </Link>
+      </Link> */}
       {/* Clickable Company Title */}
-      <Link to="/" style={{ textDecoration: "none", color: "white", position: "absolute", top: "20px", left: "60px" }}>
-        <h1 style={{ cursor: "pointer" }}>6541 Trust</h1>
-      </Link>
+      <a
+        href="/"
+        style={{
+          textDecoration: "none",
+          color: "white",
+          position: "absolute",
+        }}
+      >
+        <h1 className="navbar_title">6541 Trust</h1>
+      </a>
       <div className="navbar_scrolldown">
         <div className="activities_container">
           <button className="activites_page">Activities</button>
@@ -25,7 +32,16 @@ const Navbar = () => {
             <div className="educational_page">Education</div>
           </div>
         </div>
-        <div className="founders_page">Founder</div>
+        <a
+          href="/founders"
+          style={{
+            textDecoration: "none",
+            color: "white",
+            position: "absolute",
+          }}
+        >
+          <div className="founders_page">Founder</div>
+        </a>
       </div>
     </nav>
   );

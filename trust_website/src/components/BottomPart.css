@@ -18,6 +18,9 @@
     font-size: 2rem;
     font-family: 'Noto Serif';
     color: white;
+    flex-wrap: nowrap;
+    display: flex;
+    width: 20rem;
 }
 
 .bottom_content {

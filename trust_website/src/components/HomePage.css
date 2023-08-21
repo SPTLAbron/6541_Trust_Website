@@ -73,19 +73,26 @@
   }
 
   .home_section_3 {
-    background-color: white;
+    background-color: #00567a;
     padding: 2rem;
     margin-top: 2rem;
   }
 
   .work_title {
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
     font-family: 'Noto Serif';
     font-size: 3.5rem;
-    padding-top: 1.5rem;
+    /* padding-top: 1.5rem; */
+    color: white;
     /* color: white; */
     /* background-color:blue; */
+  }
+
+  .work_content_container {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
   }
 
   .work_content {
@@ -94,7 +101,7 @@
     flex-wrap: wrap;
     font-size: 1.5rem;
     color: white;
-    width: 55%;
+    /* width: 55%; */
     padding: 1.5rem;
     background-color: #ff8c19;
     /*include later */
@@ -104,10 +111,4 @@
     /* width: 20rem; */
     /* background-color: aqua; */
     /* padding-left: 2rem; */
-  }
-
-  .work_content_container {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
   }

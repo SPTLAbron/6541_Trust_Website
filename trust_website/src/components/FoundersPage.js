@@ -21,7 +21,7 @@ export default function FoundersPage() {
           and mentorship from generous individuals.
         </div>
       </div>
-      <div className="founders_section_1">
+      {/* <div className="founders_section_1">
         <div className="founder_component">
           <div className="founder_component_content">
             <div className="founder_name">Lebron James</div>
@@ -63,7 +63,7 @@ export default function FoundersPage() {
           </div>
           <div className="founder_image">IMAGES</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

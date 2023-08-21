@@ -13,6 +13,7 @@
   font-size: 3rem;
   color: white;
   font-family: 'Noto Serif';
+  cursor: "pointer";
 }
 
 .navbar_scrolldown {
@@ -23,11 +24,11 @@
   margin: 2rem;
   /* background-color: beige; */
   align-items: center;
-  padding-right: 10rem;
+  padding-left: 20rem;
 }
 
 .activities_container {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   /* background-color: red; */
   position: relative;
@@ -55,6 +56,7 @@ button, .activities_page {
   font-family: 'Noto Serif';
   margin-inline: 5rem;
   background-color: transparent;
+  margin-right: 15rem;
   /* border: none; */
   /* color: white; */
   cursor: pointer;
