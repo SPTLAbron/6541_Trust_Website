@@ -33,12 +33,12 @@ const Navbar = () => {
         style={{
           textDecoration: "none",
           color: "white",
-          position: "absolute",
+          // position: "absolute",
         }}
         ><div className="medical_page">Medical</div>
       </a>
 
-          {/* <a
+   <a
         href="/education"
         style={{
           textDecoration: "none",
@@ -46,7 +46,7 @@ const Navbar = () => {
           position: "absolute",
         }}
       ><div className="educational_page">Education</div>
-      </a> */}
+      </a>
             
           </div>
         </div>
