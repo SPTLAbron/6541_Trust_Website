@@ -36,7 +36,11 @@ export default function HomePage() {
               proper time and place, and to a worthy person is considered to be
               in the mode of goodness.
             </div>
-            <img source={homescreen} alt="NONE"></img>
+            <img
+              src={homescreen}
+              style={{ height: "600px", width: "400px" }}
+              alt="NONE"
+            />
           </div>
         </div>
 

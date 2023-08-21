@@ -28,26 +28,27 @@ const Navbar = () => {
         <div className="activities_container">
           <button className="activites_page">Activities</button>
           <div className="dropdown_container">
-          <a
-        href="/medical"
-        style={{
-          textDecoration: "none",
-          color: "white",
-          position: "absolute",
-        }}
-        ><div className="medical_page">Medical</div>
-      </a>
+            <a
+              href="/medical"
+              style={{
+                textDecoration: "none",
+                color: "white",
+                // position: "absolute",
+              }}
+            >
+              <div className="medical_page">Medical</div>
+            </a>
 
-          {/* <a
-        href="/education"
-        style={{
-          textDecoration: "none",
-          color: "white",
-          position: "absolute",
-        }}
-      ><div className="educational_page">Education</div>
-      </a> */}
-            
+            <a
+              href="/education"
+              style={{
+                textDecoration: "none",
+                color: "white",
+                position: "absolute",
+              }}
+            >
+              <div className="educational_page">Education</div>
+            </a>
           </div>
         </div>
         <a
