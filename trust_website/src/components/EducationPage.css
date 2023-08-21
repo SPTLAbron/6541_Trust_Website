@@ -1,0 +1,43 @@
+.education_body {
+  /* background-color: antiquewhite; */
+  padding: 2rem;
+}
+.education_section_1 {
+  background-color: #00567a;
+  margin-top: 2rem;
+  /* padding: 2rem; */
+}
+
+.education_title {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Noto Serif';
+  font-size: 3.5rem;
+  padding-top: 1.5rem;
+  color: white;
+  /* background-color:blue; */
+}
+
+.education_content {
+  /* text-align:center; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  color: white;
+  width: 55%;
+  padding: 1.5rem;
+  background-color: #ff8c19;
+  /*include later */
+  justify-content: center;
+  align-content: center;
+  font-family: 'Noto Serif';
+  /* width: 20rem; */
+  /* background-color: aqua; */
+  /* padding-left: 2rem; */
+}
+
+.education_content_container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
