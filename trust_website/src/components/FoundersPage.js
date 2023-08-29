@@ -1,10 +1,23 @@
 import "./FoundersPage.css";
+import founders from "./founders.jpeg";
 
 export default function FoundersPage() {
   return (
     <div className="founders_body">
       <div className="founders_title">About Us</div>
       <div className="founders_message_container">
+        <img
+          src={founders}
+          style={{
+            height: "21rem",
+            width: "40rem",
+            justifySelf: "center",
+            borderWidth: "0.05rem",
+            borderStyle: "solid",
+            marginTop: "2rem",
+          }}
+          alt="NONE"
+        />
         <div className="founders_message_title">Founder's Purpose</div>
         <div className="founders_message">
           This trust was established to commemorate and celebrate the story of 5

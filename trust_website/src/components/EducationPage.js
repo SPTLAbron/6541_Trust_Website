@@ -20,7 +20,7 @@ const EducationPage = () => {
             }}
             alt="NONE"
           />
-          <div className="education_name_title">Pankajam LASTNAME</div>
+          <div className="education_name_title">Pankajam Srinivasan</div>
           <div className="education_image_content">
             Mrs. Pankajam is an amazing and resilient woman. Forced to quit
             school and get married at the age of 13, and becoming a mother of 6

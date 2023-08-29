@@ -1,43 +1,129 @@
 .medical_body {
-    /* background-color: antiquewhite; */
-    padding: 2rem;
-  }
-  .medical_section_1 {
-    background-color: #00567a;
-    margin-top: 2rem;
-    /* padding: 2rem; */
-  }
-  
-  .medical_title {
-    padding: 1rem;
-    text-align: center;
-    font-family: 'Noto Serif';
-    font-size: 3.5rem;
-    padding-top: 1.5rem;
-    color: white;
-    /* background-color:blue; */
-  }
-  
-  .medical_content {
-    /* text-align:center; */
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.5rem;
-    color: white;
-    width: 55%;
-    padding: 1.5rem;
-    background-color: #ff8c19;
-    /*include later */
-    justify-content: center;
-    align-content: center;
-    font-family: 'Noto Serif';
-    /* width: 20rem; */
-    /* background-color: aqua; */
-    /* padding-left: 2rem; */
-  }
-  
-  .medicalical_content_container {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
-  }
+  /* background-color: antiquewhite; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.medical_title {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Noto Serif';
+  /* font-weight: bold; */
+  margin: 1rem;
+  margin-bottom: 3rem;
+  /* border-bottom-width: 0.11rem;
+  border-bottom-color: black;
+  border-bottom-style: solid; */
+}
+
+.medical_section_1 {
+  background-color: #00567a;
+  margin-top: 3rem;
+  /* justify-content: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* padding: 2rem; */
+}
+
+.medical_name_title {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Noto Serif';
+  font-size: 3.5rem;
+  /* padding-top: 1rem; */
+  color: white;
+  /* background-color:blue; */
+}
+
+.medical_objective_title {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Noto Serif';
+  font-size: 3.5rem;
+  padding-top:  2rem;
+  color: white;
+  /* background-color:blue; */
+}
+
+.medical_image_container {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* .medical_objective_container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+} */
+
+.medical_image_content{
+  /* text-align:center; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+  color: white;
+  /* width: 60%; */
+  padding: 1.5rem;
+  background-color: #ff8c19;
+  /*include later */
+  justify-content: center;
+  align-content: center;
+  font-family: 'Noto Serif';
+  /* width: 20rem; */
+  /* background-color: aqua; */
+  /* padding-left: 2rem; */
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.medical_objective_content{
+  /* text-align:center; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+  color: white;
+  width: 35%;
+  padding: 1.5rem;
+  /* margin: 2rem; */
+  background-color: #ff8c19;
+  /*include later */
+  justify-content: center;
+  align-content: center;
+  font-family: 'Noto Serif';
+  /* width: 20rem; */
+  /* background-color: aqua; */
+  /* padding-left: 2rem; */
+}
+
+.medical_content {
+  /* text-align:center; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  color: white;
+  /* width: 55%; */
+  padding: 1.5rem;
+  background-color: #ff8c19;
+  /*include later */
+  justify-content: center;
+  align-content: center;
+  font-family: 'Noto Serif';
+  /* width: 20rem; */
+  /* background-color: aqua; */
+  /* padding-left: 2rem; */
+}
+
+.education_content_container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}

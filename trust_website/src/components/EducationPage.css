@@ -1,6 +1,7 @@
 .education_body {
   /* background-color: antiquewhite; */
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .education_title {
@@ -17,7 +18,7 @@
 
 .education_section_1 {
   background-color: #00567a;
-  margin-top: 2rem;
+  margin-top: 3rem;
   /* justify-content: center; */
   /* display: flex; */
   /* flex-direction: column; */
@@ -29,7 +30,7 @@
   text-align: center;
   font-family: 'Noto Serif';
   font-size: 3.5rem;
-  padding-top: 1.5rem;
+  /* padding-top: 1rem; */
   color: white;
   /* background-color:blue; */
 }
@@ -39,7 +40,7 @@
   text-align: center;
   font-family: 'Noto Serif';
   font-size: 3.5rem;
-  padding-top: 1.5rem;
+  padding-top:  2rem;
   color: white;
   /* background-color:blue; */
 }
