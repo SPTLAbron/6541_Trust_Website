@@ -20,11 +20,12 @@
   flex-direction: row;
   display: flex;
   justify-content: flex-end;
-  width: 50rem;
+  width: 70rem;
   margin: 2rem;
+  margin-left: 10rem;
   /* background-color: beige; */
   align-items: center;
-  padding-left: 20rem;
+  /* padding-left: 20rem; */
 }
 
 .activities_container {
@@ -54,9 +55,9 @@ button, .activities_page {
   border-color: white;
   color: white;
   font-family: 'Noto Serif';
-  margin-inline: 5rem;
+  /* margin-inline: 5rem; */
   background-color: transparent;
-  margin-right: 15rem;
+  margin-right: 25rem;
   /* border: none; */
   /* color: white; */
   cursor: pointer;
@@ -72,7 +73,7 @@ button, .activities_page {
   left: 0;
   /* background-color: #444; */
   border: 1px solid;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   /* width: 50rem; */
 
   border-color: white;
@@ -121,10 +122,12 @@ button, .activities_page {
   border-color: white;
   color: white;
   font-family: 'Noto Serif';
+  margin-right: 13rem;
+  /* margin-inline: 5rem; */
   /* border-color: black;  */
 }
 
-.organizations_page {
+/* .organizations_page {
   padding: 0.5rem;
   font-size: 2rem;
   border-width: 0.2rem;
@@ -132,4 +135,18 @@ button, .activities_page {
   border-color: white;
   color: white;
   font-family: 'Noto Serif';
+} */
+
+.past_work {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-width: 0.2rem;
+  border-bottom-style: solid;
+  border-color: white;
+  color: white;
+  font-family: 'Noto Serif';
+  /* margin-right: 10rem; */
+  /* margin-inline: 5rem; */
+
+  /* border-color: black;  */
 }

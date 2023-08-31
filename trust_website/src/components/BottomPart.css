@@ -11,19 +11,21 @@
 }
 
 .bottom_title {
-    margin-right: 30rem;
-    margin-left: -1rem;
+    /* margin-right: 30rem; */
+    /* margin-left: -1rem; */
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    /* margin-left: 2rem; */
+    margin-bottom: 6rem;
+    font-size: 6rem;
     font-family: 'Noto Serif';
     color: white;
     flex-wrap: nowrap;
     display: flex;
-    width: 20rem;
+    /* width: 80rem; */
 }
 
 .bottom_content {
+    width: 50%;
     margin: 2rem;
     margin-left: 0rem;
     display: flex;
@@ -35,14 +37,88 @@
     width: 60%;
     font-size: 1rem;
     color: white;
-    font-family: 'Noto Serif';
 }
 
 .contact_info {
     font-size: 1rem;
     color: white;
-    font-family: 'Noto Serif';
     display: flex;
     align-items: center; /* Vertically align content */
     margin-left: 20px; /* Add some left margin for spacing */
+}
+
+.bottom_section_top_message {
+    font-size: 1.25rem;
+    font-family: 'Noto Serif';
+}
+
+.bottom_section_pages_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    width: 50rem;
+}
+
+.bottom_section_medical {
+    font-size: 1.25rem;
+    display: flex;
+    margin-right: 3rem;
+    /* width: 10rem; */
+    font-family: 'Noto Serif';
+}
+
+.bottom_section_education {
+    font-size: 1.25rem;
+    display: flex;
+    margin-right: 3rem;
+    font-family: 'Noto Serif';
+    /* margin-inline-end: 2rem; */
+    /* width: 10rem; */
+}
+
+.bottom_section_founder {
+    font-size: 1.25rem;
+    display: flex;
+    margin-right: 3rem;
+    font-family: 'Noto Serif';
+    /* width: 10rem; */
+}
+
+.bottom_section_past_work {
+    font-size: 1.25rem;
+    display: flex;
+    flex-wrap: nowrap;
+    /* width: 20rem; */
+    margin-right: 3rem;
+    font-family: 'Noto Serif';
+}
+
+.bottom_section_bottom {
+    width: 40rem;
+    border-top-style: solid;
+    border-top-width: 0.1rem;
+    margin-top: 2rem;
+}
+
+
+.contact_us_header {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact_us_section {
+    margin-top: 2rem;
+    font-family: 'Noto Serif';
+}
+
+.phone {
+    font-size: 1.25rem;
+    font-family: 'Noto Serif';
+}
+
+.email {
+    font-size: 1.25rem;
+    font-family: 'Noto Serif';
 }

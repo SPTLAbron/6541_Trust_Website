@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css";
 import homescreen from "./homescreen.jpeg";
+import lakshmi_main from "./lakshmi_main.jpeg";
+import pankajam_main from "./pankajam_main.png";
 // import image from "./download.jpeg";
 
 export default function HomePage() {
@@ -53,6 +55,18 @@ export default function HomePage() {
               come up with 2 different individual welfare plans initially under
               6541 Trust umbrella. We have named each of these plans for the
               mentors who were passionate about these causes.
+            </div>
+            <div className="home_page_images">
+              <img
+                src={lakshmi_main}
+                style={{ height: "24rem", width: "18rem" }}
+                alt="NONE"
+              />
+              <img
+                src={pankajam_main}
+                style={{ height: "24rem", width: "24rem" }}
+                alt="NONE"
+              />
             </div>
             {/* <div className="medicines_image">IMAGE</div> */}
           </div>

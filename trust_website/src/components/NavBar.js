@@ -61,6 +61,17 @@ const Navbar = () => {
         >
           <div className="founders_page">Founder</div>
         </a>
+        <a
+          href="/founders"
+          style={{
+            textDecoration: "none",
+            color: "white",
+            position: "absolute",
+          }}
+        >
+          <div className="past_work">Past Work</div>
+        </a>
+        {/* <div className="past_work">Past Work</div> */}
       </div>
     </nav>
   );
