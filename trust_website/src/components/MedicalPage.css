@@ -35,16 +35,6 @@
   /* background-color:blue; */
 }
 
-.medical_objective_title {
-  padding: 1rem;
-  text-align: center;
-  font-family: 'Noto Serif';
-  font-size: 3.5rem;
-  padding-top:  2rem;
-  color: white;
-  /* background-color:blue; */
-}
-
 .medical_image_container {
   /* background-color: black; */
   display: flex;
@@ -81,27 +71,7 @@
   /* background-color: aqua; */
   /* padding-left: 2rem; */
   text-align: center;
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.medical_objective_content{
-  /* text-align:center; */
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1.25rem;
-  color: white;
-  width: 35%;
-  padding: 1.5rem;
-  /* margin: 2rem; */
-  background-color: #ff8c19;
-  /*include later */
-  justify-content: center;
-  align-content: center;
-  font-family: 'Noto Serif';
-  /* width: 20rem; */
-  /* background-color: aqua; */
-  /* padding-left: 2rem; */
+  margin-inline: 3rem;
 }
 
 .medical_content {
@@ -126,4 +96,46 @@
   display: flex;
   flex-direction: row;
   padding: 2rem;
+}
+
+.medical_section_2 {
+  background-color: #00567a;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  /* justify-content: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* padding: 2rem; */
+}
+
+.medical_objective_title {
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Noto Serif';
+  font-size: 3.5rem;
+  padding-top:  2rem;
+  color: white;
+  /* background-color:blue; */
+}
+
+.medical_objective_content{
+  /* text-align:center; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+  color: white;
+  /* width: 35%; */
+  padding: 1.5rem;
+  /* margin: 2rem; */
+  background-color: #ff8c19;
+  /*include later */
+  justify-content: center;
+  align-content: center;
+  font-family: 'Noto Serif';
+  text-align: center;
+  margin-inline: 3rem;
+  margin-bottom: 2rem;
+  /* width: 20rem; */
+  /* background-color: aqua; */
+  /* padding-left: 2rem; */
 }
