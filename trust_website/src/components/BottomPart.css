@@ -16,7 +16,7 @@
     margin-top: 2rem;
     /* margin-left: 2rem; */
     margin-bottom: 6rem;
-    font-size: 6rem;
+    font-size: 4.5rem;
     font-family: 'Noto Serif';
     color: white;
     flex-wrap: nowrap;
@@ -34,7 +34,7 @@
 }
 
 .bottom_statement {
-    width: 60%;
+    width: 100%;
     font-size: 1rem;
     color: white;
 }

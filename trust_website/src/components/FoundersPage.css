@@ -43,7 +43,8 @@
   font-size: 1.5rem;
   color: white;
   width: 80%;
-  padding: 1.5rem;
+  padding: 2rem;
+  padding-inline: 3rem;
   background-color: #ff8c19;
   /*include later */
   justify-content: center;

@@ -47,7 +47,7 @@ const Navbar = () => {
                 position: "absolute",
               }}
             >
-              <div className="educational_page">Education</div>
+              <div className="educational_page">Women's Welfare</div>
             </a>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
             position: "absolute",
           }}
         >
-          <div className="founders_page">Founder</div>
+          <div className="founders_page">Founders</div>
         </a>
         <a
           href="/founders"
@@ -69,7 +69,7 @@ const Navbar = () => {
             position: "absolute",
           }}
         >
-          <div className="past_work">Past Work</div>
+          {/* <div className="past_work">Past Work</div> */}
         </a>
         {/* <div className="past_work">Past Work</div> */}
       </div>

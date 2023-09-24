@@ -28,6 +28,16 @@ export default function BottomPart() {
             </div> */}
             <div className="bottom_section_pages_container">
               <a
+                href="/founders"
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  // position: "absolute",
+                }}
+              >
+                <div className="bottom_section_founder">Founders</div>
+              </a>
+              <a
                 href="/medical"
                 style={{
                   textDecoration: "none",
@@ -47,17 +57,7 @@ export default function BottomPart() {
               >
                 <div className="bottom_section_education">Education</div>
               </a>
-              <a
-                href="/founders"
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                  // position: "absolute",
-                }}
-              >
-                <div className="bottom_section_founder">Founders</div>
-              </a>
-              <div className="bottom_section_past_work">Past Work</div>
+              {/* <div className="bottom_section_past_work">Past Work</div> */}
             </div>
           </div>
           <div className="bottom_section_bottom">

@@ -22,7 +22,7 @@
   justify-content: flex-end;
   width: 70rem;
   margin: 2rem;
-  margin-left: 10rem;
+  margin-left: 25rem;
   /* background-color: beige; */
   align-items: center;
   /* padding-left: 20rem; */
@@ -57,7 +57,7 @@ button, .activities_page {
   font-family: 'Noto Serif';
   /* margin-inline: 5rem; */
   background-color: transparent;
-  margin-right: 25rem;
+  margin-right: 18rem;
   /* border: none; */
   /* color: white; */
   cursor: pointer;
@@ -122,7 +122,7 @@ button, .activities_page {
   border-color: white;
   color: white;
   font-family: 'Noto Serif';
-  margin-right: 13rem;
+  margin-right: 5rem;
   /* margin-inline: 5rem; */
   /* border-color: black;  */
 }

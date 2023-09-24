@@ -21,17 +21,16 @@ export default function FoundersPage() {
         <div className="founders_message_title">Founder's Purpose</div>
         <div className="founders_message">
           This trust was established to commemorate and celebrate the story of 5
-          Indian boys who lived in abject poverty but through sheer perseverance
-          of a gutsy single mother, grew up to become very successful in their
-          own lives. Some of these boys have gone onto become captains of their
-          chosen fields. This success would not have been possible without the
-          help of a few remarkable individuals who guided the boys through
-          thoughtful counseling and setting up a value system that has stood the
-          test of time. The boys and their mother grew up at 6541 Kumarguda, a
-          single room partitioned into multiple rooms by cardboard structures.
-          In the collective minds of the boys, 6541 Trust represents what can be
-          accomplished with perseverance, hard work and most importantly, help
-          and mentorship from generous individuals.
+          Indian boys who lived in poverty, but, through the sheer perseverance
+          of their gutsy single mother, grew up to become highly successful
+          professionals in their fields. This success would not have been
+          possible without the help of a few remarkable individuals who guided
+          the boys with thoughtful counseling and set up a value system that has
+          stood the test of time. The boys and their mother grew up at 6541
+          Kumarguda, Secunderabad, in a single room separated by flimsy
+          cardboard structures. In the collective minds of the boys, 6541 Trust
+          represents what can be accomplished with perseverance, hard work and
+          most importantly, help and mentorship from generous individuals.
         </div>
       </div>
       {/* <div className="founders_section_1">
