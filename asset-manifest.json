@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/6541_Trust_Website/static/css/main.fd22a9ae.css",
+    "main.js": "/6541_Trust_Website/static/js/main.64f9048e.js",
+    "static/js/787.d7a4456b.chunk.js": "/6541_Trust_Website/static/js/787.d7a4456b.chunk.js",
+    "static/media/homescreen.jpeg": "/6541_Trust_Website/static/media/homescreen.3120bab5b684df24af67.jpeg",
+    "static/media/education.jpeg": "/6541_Trust_Website/static/media/education.28a8d95f6d2e593c4393.jpeg",
+    "static/media/pankajam_main.png": "/6541_Trust_Website/static/media/pankajam_main.b0776c4356ca13c1acb2.png",
+    "static/media/lakshmi_photo.jpg": "/6541_Trust_Website/static/media/lakshmi_photo.08c79f2bd59041c366ca.jpg",
+    "static/media/lakshmi_main.jpeg": "/6541_Trust_Website/static/media/lakshmi_main.af66956948bbc6f40ebd.jpeg",
+    "static/media/indian_hospital.jpeg": "/6541_Trust_Website/static/media/indian_hospital.4b306d707663cf2ddfcf.jpeg",
+    "static/media/pankajam_1.jpeg": "/6541_Trust_Website/static/media/pankajam_1.60b6c4f823ffc3ab4139.jpeg",
+    "static/media/founders.jpeg": "/6541_Trust_Website/static/media/founders.c45bb7238e5bced674d7.jpeg",
+    "static/media/insta.jpeg": "/6541_Trust_Website/static/media/insta.f6a89db31cd4f2caf19e.jpeg",
+    "index.html": "/6541_Trust_Website/index.html",
+    "main.fd22a9ae.css.map": "/6541_Trust_Website/static/css/main.fd22a9ae.css.map",
+    "main.64f9048e.js.map": "/6541_Trust_Website/static/js/main.64f9048e.js.map",
+    "787.d7a4456b.chunk.js.map": "/6541_Trust_Website/static/js/787.d7a4456b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd22a9ae.css",
+    "static/js/main.64f9048e.js"
+  ]
+}
