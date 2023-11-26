@@ -5,17 +5,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar_header">
-      {/* Logo */}
-      {/* <Link to="/">
-        <img
-          src="/path/to/your/logo.png"
-          alt="Company Logo"
-          style={{ cursor: "pointer", position: "absolute", top: "10px", left: "10px" }}
-        />
-      </Link> */}
-      {/* Clickable Company Title */}
-      <a
-        href="/"
+      <Link
+        to="/"
         style={{
           textDecoration: "none",
           color: "white",
@@ -23,13 +14,13 @@ const Navbar = () => {
         }}
       >
         <h1 className="navbar_title">6541 Trust</h1>
-      </a>
+      </Link>
       <div className="navbar_scrolldown">
         <div className="activities_container">
           <button className="activites_page">Activities</button>
           <div className="dropdown_container">
-            <a
-              href="/medical"
+            <Link
+              to="/medical"
               style={{
                 textDecoration: "none",
                 color: "white",
@@ -37,10 +28,10 @@ const Navbar = () => {
               }}
             >
               <div className="medical_page">Medical</div>
-            </a>
+            </Link>
 
-            <a
-              href="/education"
+            <Link
+              to="/education"
               style={{
                 textDecoration: "none",
                 color: "white",
@@ -48,11 +39,11 @@ const Navbar = () => {
               }}
             >
               <div className="educational_page">Women's Welfare</div>
-            </a>
+            </Link>
           </div>
         </div>
-        <a
-          href="/founders"
+        <Link
+          to="/founders"
           style={{
             textDecoration: "none",
             color: "white",
@@ -60,9 +51,9 @@ const Navbar = () => {
           }}
         >
           <div className="founders_page">Founders</div>
-        </a>
-        <a
-          href="/founders"
+        </Link>
+        <Link
+          to="/founders"
           style={{
             textDecoration: "none",
             color: "white",
@@ -70,7 +61,7 @@ const Navbar = () => {
           }}
         >
           {/* <div className="past_work">Past Work</div> */}
-        </a>
+        </Link>
         {/* <div className="past_work">Past Work</div> */}
       </div>
     </nav>

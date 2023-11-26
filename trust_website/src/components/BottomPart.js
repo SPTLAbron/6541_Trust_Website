@@ -1,6 +1,6 @@
 import React from "react";
 import "./BottomPart.css";
-import insta from "./insta.jpeg";
+import { Link } from "react-router-dom";
 
 export default function BottomPart() {
   return (
@@ -13,32 +13,9 @@ export default function BottomPart() {
               The 6541 works to provide crucial medicine and education for the
               needy.
             </div>
-            {/* <div className="bottom_section_top_media">
-              <img
-                src={insta}
-                style={{
-                  height: "2rem",
-                  width: "2rem",
-                  justifySelf: "center",
-                  borderWidth: "0.05rem",
-                  borderStyle: "solid",
-                }}
-                alt="NONE"
-              />
-            </div> */}
             <div className="bottom_section_pages_container">
-              <a
-                href="/founders"
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                  // position: "absolute",
-                }}
-              >
-                <div className="bottom_section_founder">Founders</div>
-              </a>
-              <a
-                href="/medical"
+              <Link
+                to="/medical"
                 style={{
                   textDecoration: "none",
                   color: "white",
@@ -46,9 +23,9 @@ export default function BottomPart() {
                 }}
               >
                 <div className="bottom_section_medical">Medical</div>
-              </a>
-              <a
-                href="/education"
+              </Link>
+              <Link
+                to="/education"
                 style={{
                   textDecoration: "none",
                   color: "white",
@@ -56,7 +33,17 @@ export default function BottomPart() {
                 }}
               >
                 <div className="bottom_section_education">Education</div>
-              </a>
+              </Link>
+              <Link
+                to="/founders"
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  // position: "absolute",
+                }}
+              >
+                <div className="bottom_section_founder">Founders</div>
+              </Link>
               {/* <div className="bottom_section_past_work">Past Work</div> */}
             </div>
           </div>
