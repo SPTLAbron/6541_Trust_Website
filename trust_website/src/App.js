@@ -16,13 +16,13 @@ function App() {
     case "/founders":
       Component = <FoundersPage />;
       break;
-       case "/medical":
-        Component = <MedicalPage />;
-        break; 
-       case "/education":
+    case "/medical":
+      Component = <MedicalPage />;
+      break;
+    case "/education":
       Component = <EducationPage />;
       break;
- 
+
     default:
       return null;
   }
@@ -34,26 +34,6 @@ function App() {
       {Component}
       <BottomPart />
     </Router>
-
-    // <Router>
-    //   <NavBar />
-    //   {/* Logo
-    //   <Link to="/">
-    //     <img
-    //       src="/path/to/your/logo.png"
-    //       alt="Company Logo"
-    //       style={{ cursor: "pointer", position: "absolute", top: "10px", left: "10px" }}
-    //     />
-    //   </Link> */}
-    //   {/* Clickable Company Title
-    //   <Link to="/" style={{ textDecoration: "none", color: "black", position: "absolute", top: "20px", left: "60px" }}>
-    //     <h1 style={{ cursor: "pointer" }}>6541 Trust</h1>
-    //   </Link> */}
-    //   {/* <HomePage /> */}
-    //   <FoundersPage />
-    //   <HomePage />
-    //   <BottomPart />
-    // </Router>
   );
 }
 
